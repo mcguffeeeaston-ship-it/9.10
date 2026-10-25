@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="Main\Core\Addresses.h" />
     <ClInclude Include="Main\Core\config.h" />
+    <ClInclude Include="Main\Core\Log.h" />
     <ClInclude Include="Main\Core\Webhook.h" />
     <ClInclude Include="Main\Core\framework.h" />
     <ClInclude Include="Main\Core\Funcs.h" />

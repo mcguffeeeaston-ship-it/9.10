@@ -13251,6 +13251,9 @@
     <ClInclude Include="SDK\UtfN.hpp">
       <Filter>SDK</Filter>
     </ClInclude>
+    <ClInclude Include="Main\Core\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main\Core\dllmain.cpp">
