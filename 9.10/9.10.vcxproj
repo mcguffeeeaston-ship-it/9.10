@@ -125,7 +125,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_910_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdclatest</LanguageStandard_C>
@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="Main\Core\Addresses.h" />
     <ClInclude Include="Main\Core\config.h" />
+    <ClInclude Include="Main\Core\pch.h" />
     <ClInclude Include="Main\Core\Log.h" />
     <ClInclude Include="Main\Core\Webhook.h" />
     <ClInclude Include="Main\Core\framework.h" />
@@ -4548,11 +4549,24 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main\Core\dllmain.cpp" />
-    <ClCompile Include="SDK\SDK\Basic.cpp" />
-    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp" />
-    <ClCompile Include="SDK\SDK\Engine_functions.cpp" />
-    <ClCompile Include="SDK\SDK\FortniteGame_functions.cpp" />
-    <ClCompile Include="SDK\SDK\GameplayAbilities_functions.cpp" />
+    <ClCompile Include="Main\Core\pch.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Basic.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\CoreUObject_functions.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\Engine_functions.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\FortniteGame_functions.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SDK\SDK\GameplayAbilities_functions.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="SDK\SDK\_WaterMeshBlueprintMaster_functions.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
