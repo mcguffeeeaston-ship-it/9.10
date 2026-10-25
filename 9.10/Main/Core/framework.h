@@ -7,9 +7,9 @@
 #include <string>
 #include <cstring>
 #include <memory>
-#include "SDK/SDK.hpp"
+#include "../../SDK/SDK.hpp"
 using namespace SDK;
-#include "Minhook/MinHook.h"
+#include "../../Minhook/MinHook.h"
 #include "Addresses.h"
 #include "Funcs.h"
 

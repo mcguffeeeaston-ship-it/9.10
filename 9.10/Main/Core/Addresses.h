@@ -7,9 +7,9 @@ namespace Addresses {
     inline uint64_t KickPlayer = 0x2D9AE90;
     inline uint64_t InitListen = 0x6643A0;
     inline uint64_t SetWorld = 0x2ED1540;
-    inline uint64_t ActorNetMode = 0x2B3BAA0;//No Need to worry if this is 0x0
-    inline uint64_t ChangeGameSessionId = 0x1403040;//No Need to worry if this is 0x0
-    inline uint64_t ApplyCharacterCustomization = 0x1897D50;//No Need to worry if this is 0x0
+    inline uint64_t ActorNetMode = 0x2B3BAA0;
+    inline uint64_t ChangeGameSessionId = 0x1403040;
+    inline uint64_t ApplyCharacterCustomization = 0x1897D50;
     inline uint64_t CreateNetDriver = 0x315A8F0;
     inline uint64_t ServerReplicateActors = 0x9BFA40;
     inline uint64_t TickFlush = 0x2ED22B0;
