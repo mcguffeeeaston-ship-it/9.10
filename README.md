@@ -4,7 +4,7 @@ A work-in-progress game server for Fortnite **9.10**, built as a C++ DLL that ho
 
 > **Status: WIP.** This is my first game server, so expect rough edges and missing features. Feedback and bug reports are welcome. Please be kind 😃
 
-> **Disclaimer:** This is a fan-made, non-commercial project for learning purposes. It is not affiliated with or endorsed by Epic Games. You need your own copy of the game.
+> **Want to contribute?** Contributions are welcome! Send me a DM on Discord (**hs9g**) before you start, so we can talk it over and avoid doing the same work twice.
 
 ---
 
