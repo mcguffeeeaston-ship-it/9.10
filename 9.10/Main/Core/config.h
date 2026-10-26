@@ -25,7 +25,7 @@ namespace Config
 	inline constexpr int  HeartbeatSeconds = 30;
 
 	inline constexpr bool         DiscordWebhook = true;
-	inline constexpr const char* WebhookUrl = "https://discord.com/api/webhooks/1564062458157465610/JXQUCPDpKQMjHkEQSVZoGs5IedVZx9Uy4KwoRgV58kw-QyP2cGqUtvJBTt13CcJfeNy4";
+	inline constexpr const char* WebhookUrl = "oops cant leave that there lol!";
 	inline constexpr const char* WebhookUsername = "9.10 Server";
 	inline constexpr const char* WebhookAvatar = "";
 	inline constexpr uint32_t     WebhookColor = 0x57F287;
